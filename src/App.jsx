@@ -1,13 +1,15 @@
-import Header from "./components/Header" // Import Header component
-import Meme from "./components/Meme" // Import Meme component
+// The main App component that combines the Header and Meme components.
+import Header from "./components/Header";
+import Meme from "./components/Meme";
 
-function App() {
-  return (
-    <>
-      <Header /> {/* Render the Header component */}
-      <Meme /> {/* Render the Meme component */}
-    </>
-  )
+/**
+ * This is the main entry point of the app, rendering the Header and Meme components.
+ */
+export default function App() {
+    return (
+        <div>
+            <Header />
+            <Meme />
+        </div>
+    );
 }
-
-export default App

@@ -1,4 +1,4 @@
-const memeData = [
+const memesData = [
     {
       id: '181913649',
       name: 'Drake Hotline Bling',
@@ -901,4 +901,4 @@ const memeData = [
     }
   ];
 
-  export default memeData;
+  export default memesData;
